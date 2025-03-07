@@ -2,8 +2,8 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #141414; /* Dark background */
-    color: white; /* White text */
+    background-color: #ffffff; /* White background */
+    color: #333; /* Dark text */
 }
 
 header {
@@ -11,12 +11,13 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #e50914; /* Netflix red */
+    border-bottom: 1px solid #e0e0e0; /* Light gray border */
 }
 
 .logo {
-    font-size: 1.5em;
+    font-size: 1.8em;
     font-weight: bold;
+    color: #333; /* Dark text */
 }
 
 nav ul {
@@ -26,7 +27,7 @@ nav ul {
 }
 
 nav a {
-    color: white;
+    color: #007bff; /* Blue links */
     text-decoration: none;
     font-weight: bold;
 }
@@ -36,19 +37,19 @@ nav a:hover {
 }
 
 main {
-    padding: 20px;
+    padding: 40px;
 }
 
 .member-section {
-    background: #333; /* Darker section background */
+    background: #f9f9f9; /* Light gray section background */
     margin: 20px 0;
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
-    color: #e50914; /* Netflix red */
+    color: #333; /* Dark text */
 }
 
 ul {
@@ -58,7 +59,7 @@ ul {
 
 li {
     padding: 10px 0;
-    border-bottom: 1px solid #444; /* Darker border */
+    border-bottom: 1px solid #e0e0e0; /* Light gray border */
 }
 
 li:last-child {
@@ -66,7 +67,7 @@ li:last-child {
 }
 
 a {
-    color: #e50914; /* Netflix red */
+    color: #007bff; /* Blue links */
     text-decoration: none;
 }
 
@@ -77,8 +78,8 @@ a:hover {
 footer {
     text-align: center;
     padding: 15px 0;
-    background: #e50914; /* Netflix red */
-    color: white;
+    background: #f1f1f1; /* Light gray footer */
+    color: #333; /* Dark text */
     position: relative;
     bottom: 0;
     width: 100%;
