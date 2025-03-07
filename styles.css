@@ -2,20 +2,37 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #141414; /* Dark background */
+    color: white; /* White text */
 }
 
 header {
-    background: linear-gradient(90deg, #007bff, #00c6ff);
-    color: white;
-    padding: 20px 0;
-    text-align: center;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #e50914; /* Netflix red */
 }
 
-h1 {
-    font-size: 2.5em;
-    margin: 0;
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
 }
 
 main {
@@ -23,20 +40,15 @@ main {
 }
 
 .member-section {
-    background: white;
+    background: #333; /* Darker section background */
     margin: 20px 0;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s;
-}
-
-.member-section:hover {
-    transform: scale(1.02);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
 
 h2 {
-    color: #007bff;
+    color: #e50914; /* Netflix red */
 }
 
 ul {
@@ -46,7 +58,7 @@ ul {
 
 li {
     padding: 10px 0;
-    border-bottom: 1px solid #e0e0e0;
+    border-bottom: 1px solid #444; /* Darker border */
 }
 
 li:last-child {
@@ -54,7 +66,7 @@ li:last-child {
 }
 
 a {
-    color: #007bff;
+    color: #e50914; /* Netflix red */
     text-decoration: none;
 }
 
@@ -65,7 +77,7 @@ a:hover {
 footer {
     text-align: center;
     padding: 15px 0;
-    background: #007bff;
+    background: #e50914; /* Netflix red */
     color: white;
     position: relative;
     bottom: 0;
