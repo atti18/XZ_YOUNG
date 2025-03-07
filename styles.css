@@ -2,7 +2,7 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #ffffff; /* White background */
+    background-color: #f6f6f6; /* Light background */
     color: #333; /* Dark text */
 }
 
@@ -11,13 +11,13 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    border-bottom: 1px solid #e0e0e0; /* Light gray border */
+    background-color: #7289da; /* Discord blue */
+    color: white; /* White text */
 }
 
 .logo {
     font-size: 1.8em;
     font-weight: bold;
-    color: #333; /* Dark text */
 }
 
 nav ul {
@@ -27,7 +27,7 @@ nav ul {
 }
 
 nav a {
-    color: #007bff; /* Blue links */
+    color: white; /* White links */
     text-decoration: none;
     font-weight: bold;
 }
@@ -41,7 +41,7 @@ main {
 }
 
 .member-section {
-    background: #f9f9f9; /* Light gray section background */
+    background: white; /* White section background */
     margin: 20px 0;
     padding: 20px;
     border-radius: 8px;
@@ -49,7 +49,7 @@ main {
 }
 
 h2 {
-    color: #333; /* Dark text */
+    color: #7289da; /* Discord blue */
 }
 
 ul {
@@ -67,7 +67,7 @@ li:last-child {
 }
 
 a {
-    color: #007bff; /* Blue links */
+    color: #7289da; /* Discord blue */
     text-decoration: none;
 }
 
